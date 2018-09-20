@@ -6,10 +6,6 @@ module Findable
     end
   end
   
-  module InstanceMethods
-    def all
-      self.class.all
-    end
-  end
+  
   
 end
