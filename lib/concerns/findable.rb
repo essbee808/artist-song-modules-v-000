@@ -7,7 +7,8 @@ module Findable
   end
   
   module InstanceMethods
-    def 
+    def all
+    end
   end
   
 end
