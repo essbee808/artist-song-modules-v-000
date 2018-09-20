@@ -9,7 +9,7 @@ class Artist
   attr_accessor :name
   attr_reader :songs
 
-  @@array = []
+  @@artists = []
 
   def initialize
     @@array << self
