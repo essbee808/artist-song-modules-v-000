@@ -8,7 +8,7 @@ module Findable
   
   module InstanceMethods
     def all
-      self.all
+      @@artists || @@songs
     end
   end
   
