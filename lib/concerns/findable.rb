@@ -1,6 +1,4 @@
 module Findable
 
-  module ClassMethods
-    
-  end
+  def 
 end
