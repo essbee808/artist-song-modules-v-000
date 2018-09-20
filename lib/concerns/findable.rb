@@ -8,7 +8,7 @@ module Findable
   
   module InstanceMethods
     def all
-      
+      class.
     end
   end
   
