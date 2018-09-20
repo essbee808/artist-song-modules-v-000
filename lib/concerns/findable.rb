@@ -2,7 +2,7 @@ module Findable
   
   module ClassMethods
     def find_by_name(name)
-      self.
+      self.class.all.detect
       #self.detect{ |a| self.name == name }
     end
   end
