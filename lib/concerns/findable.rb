@@ -6,7 +6,7 @@ module Findable
     end
     
     def all
-      @@artists || @@songs
+      @@artists
     end
   end
   
