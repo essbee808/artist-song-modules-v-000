@@ -1,4 +1,4 @@
 module Findable
 
-  def 
+  def find_
 end
