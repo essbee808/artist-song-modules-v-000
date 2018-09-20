@@ -11,7 +11,7 @@ class Song
   @@array = []
 
   def initialize
-    @@songs << self
+    @@array << self
   end
 
   # def self.find_by_name(name)
@@ -19,7 +19,7 @@ class Song
   # end
 
   def self.all
-    @@songs
+    @@array
   end
 
   def artist=(artist)
