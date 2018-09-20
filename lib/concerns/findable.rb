@@ -5,13 +5,7 @@ module Findable
       self.all.detect{|a| self.name == name}
     end
     
-    def all
-      @@artists
-    end
-    
-    def all
-      @@songs
-    end
+   
   end
   
 end
