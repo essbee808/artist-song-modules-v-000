@@ -8,6 +8,10 @@ module Findable
     def all
       @@artists
     end
+    
+    def all
+      @@songs
+    end
   end
   
 end
