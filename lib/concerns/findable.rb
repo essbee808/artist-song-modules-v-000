@@ -1,7 +1,6 @@
 require 'pry'
 
 module Findable
-@@collection = []
 
   module ClassMethods
     def find_by_name(name)
