@@ -1,6 +1,5 @@
 require 'pry'
-require_relative './concerns/memorable.rb'
-require_relative './concerns/findable.rb'
+
 
 class Song
   extend Memorable::ClassMethods
