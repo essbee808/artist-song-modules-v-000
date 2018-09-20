@@ -30,7 +30,7 @@ class Artist
     @songs << song
     song.artist = self
   end
-binding.pry
+  
   def add_songs(songs)
     songs.each { |song| add_song(song) }
   end
