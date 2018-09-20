@@ -6,6 +6,7 @@ module Findable
     def find_by_name(name)
       self.class.all.detect 
       #self.detect{ |a| self.name == name }
+      binding.pry
     end
   end
   
