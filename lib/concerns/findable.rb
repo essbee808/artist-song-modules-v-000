@@ -3,7 +3,7 @@ module Findable
   module ClassMethods
     
     def all
-      @@artists
+      self
     end
     
     def find_by_name(name)
